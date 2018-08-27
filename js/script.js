@@ -5,9 +5,9 @@ let menuLi = document.getElementsByClassName('menu-item'),
 		adv = document.querySelector('.adv'),
 		comment = document.getElementsByClassName('prompt')[0];
 
-	menu.appendChild(newLi);
 	newLi.innerHTML = 'Пятый пункт';
 	newLi.classList.add('menu-item');
+	menu.appendChild(newLi);
 	menu.insertBefore(menuLi[2], menuLi[1]);
 	document.body.style.background = 'url(./img/apple_true.jpg) center no-repeat';
 	title.innerHTML = 'Мы продаем только подлинную технику Apple';
