@@ -9,7 +9,7 @@ let menuLi = document.getElementsByClassName('menu-item'),
 	newLi.innerHTML = 'Пятый пункт';
 	newLi.classList.add('menu-item');
 	menu.insertBefore(menuLi[2], menuLi[1]);
-	document.body.style.background = 'url(../img/apple_true.jpg) center no-repeat';
+	document.body.style.background = 'url(./img/apple_true.jpg) center no-repeat';
 	title.innerHTML = 'Мы продаем только подлинную технику Apple';
 	adv.remove();
 	var textPrompt = prompt('Ваше отношение к технике Apple');
